@@ -1,4 +1,4 @@
-import Vue from 'vue'                           // Импортируем Vue и Views
+import Vue from 'vue' // Импортируем Vue и Views
 import Router from 'vue-router'
 import Red from '../views/Red.vue'
 import Yellow from '../views/Yellow.vue'
@@ -6,10 +6,9 @@ import Green from '../views/Green.vue'
 
 Vue.use(Router)
 
-export default new Router({                      // Настраиваем Роутинг
+export default new Router({ // Настраиваем Роутинг
   mode: 'history',
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'main',
       component: Red
