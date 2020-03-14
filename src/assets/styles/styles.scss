@@ -1,0 +1,41 @@
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  border: 8px solid #000000; ;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  }
+.trumpet {
+  width: 50px;
+  height: 250px;
+  border: 8px solid #000000;;
+  margin-top: - 8px;
+}
+
+h1 {
+  font-size: 150px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
